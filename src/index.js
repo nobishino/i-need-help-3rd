@@ -71,10 +71,10 @@ class Main extends React.Component{
                   </Col>
                   <Col xs="12">
                     <Card>
-                      <h2>Life plan(人生進捗率)</h2>
+                      <h2>人生進捗率</h2>
                       <Row>
                         <Col xs="12">
-                          <div>
+                          <div className="life-progress">
                             <div className="text-center">人生進み具合(実年齢/寿命)</div>
                             <Progress color="success" value={25} max={80}>25歳</Progress>
                             <div className="text-center">人生やりたいことリスト</div>
