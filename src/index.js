@@ -13,7 +13,7 @@ import './updatebs4.css';
 class Header extends React.Component{
     constructor(props){
         super(props);
-        this.state={title:"I need help 3rd."};
+        this.state={title:"I need help 3."};
     }
     render(){
         return(
@@ -75,16 +75,33 @@ class Main extends React.Component{
                       <Row>
                         <Col xs="12">
                           <div className="life-progress">
-                            <div className="text-center">人生進み具合(実年齢/寿命)</div>
-                            <Progress color="success" value={25} max={80}>25歳</Progress>
-                            <div className="text-center">人生やりたいことリスト</div>
-                            <Progress color="info" value={2} max={5}>2件終わって、残り5件</Progress>
-                            <div className="text-center">ダイエット進捗率</div>
-                            <Progress color="worning" value={20} max={30} />
-                            <div className="text-center">老後の蓄え(2000万)</div>
-                            <Progress color="warning" value="20" max={2000} />
+                            <div className="life-content">
+                              <div className="text-center">人生進み具合(実年齢/寿命)</div>
+                              <Progress color="success" value={25} max={80}>25歳</Progress>
+                            </div>
+                            <div className="life-content">
+                              <div className="text-center">人生やりたいことリスト</div>
+                              <Progress color="info" value={2} max={5}>2件終わって、残り5件</Progress>
+                            </div> 
+                            <div className="life-content">
+                              <div className="text-center">ダイエット進捗率</div>
+                              <Progress color="worning" value={20} max={30} />
+                            </div>
+                            <div className="life-content">
+                              <div className="text-center">老後の蓄え(2000万)</div>
+                              <Progress color="warning" value="20" max={2000} />
+                            </div>
                           </div>
                         </Col>
+                      </Row>
+                    </Card>
+                  </Col>
+                  <Col xs="12">
+                    <Card>
+                      <h2>Project</h2>
+                      <Row>
+                        <Col xs="4"><img src="" alt="太郎の自撮り"/></Col>
+                        <Col xs="8">シャーッス</Col>
                       </Row>
                     </Card>
                   </Col>

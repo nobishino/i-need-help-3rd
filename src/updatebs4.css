@@ -122,4 +122,13 @@ p{
 .card h2{
     padding: 0 0 40px 0 ;
 }
+@media(max-width:767px){
+    .card h2{
+        padding: 0 0 10px 0 ;
+    }
+    .card{
+        margin: 5px;
+        padding: 2rem;
+    }
+}
 .container{}
