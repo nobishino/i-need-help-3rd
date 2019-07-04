@@ -24,7 +24,6 @@ class Header extends React.Component{
                   <h3>{this.state.title}</h3>
                   <small>常に助けを求めている。</small>
                 </div>
-                <Spinner style={{ width: '60px', height: '60px' }} type="grow" />
               </Col>
               <Col className="share" xs="6">
                 <div className="share-contents">

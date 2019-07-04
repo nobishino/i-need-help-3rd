@@ -43,6 +43,11 @@
     text-align: center;
     align-items: center;
 }
+@media(min-width:576px){
+    h1 {
+        font-size:32px;
+    }
+}
 main{
     padding-top: 98px;
 }
@@ -56,15 +61,15 @@ h4 {
 .share-contents{
     display: flex;
     justify-content:space-between;
-    width:80%;
-    font-weight: 600;
+    width:100%;
+    font-weight: 500;
     font-size: 28px;
 }
 .share-content{
     padding: 10px;
     border:solid gray;
     color: gray;
-    width:70px;
+    width:60px;
 }
 .share-content:hover{
     color:#ffffff;
@@ -86,6 +91,20 @@ h1,h2,h3,h4{
     font-family: Oswald,Helvetica,Arial,sans-serif;
     font-weight: 400;
     line-height: 1.1;
+}
+@media(max-width:767px){
+    h1{
+        font-size:56px;
+    }
+    .share-content{
+        margin: 10px 0;
+        width:60px;
+    }
+    .share.col-6{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    
 }
 p{
     color: #fff;
