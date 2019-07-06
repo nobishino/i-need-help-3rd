@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/i-need-help-3rd/static/css/main.bed3fd2d.chunk.css",
+    "main.css": "/i-need-help-3rd/static/css/main.386e70d7.chunk.css",
     "main.js": "/i-need-help-3rd/static/js/main.0419cc2a.chunk.js",
     "main.js.map": "/i-need-help-3rd/static/js/main.0419cc2a.chunk.js.map",
     "runtime~main.js": "/i-need-help-3rd/static/js/runtime~main.c4ff259d.js",
@@ -9,10 +9,10 @@
     "static/js/2.bf2e891c.chunk.js": "/i-need-help-3rd/static/js/2.bf2e891c.chunk.js",
     "static/js/2.bf2e891c.chunk.js.map": "/i-need-help-3rd/static/js/2.bf2e891c.chunk.js.map",
     "index.html": "/i-need-help-3rd/index.html",
-    "precache-manifest.df7e1143894990c3dbca16740f56778e.js": "/i-need-help-3rd/precache-manifest.df7e1143894990c3dbca16740f56778e.js",
+    "precache-manifest.dc90edac7a571f17f5017f94ed68705c.js": "/i-need-help-3rd/precache-manifest.dc90edac7a571f17f5017f94ed68705c.js",
     "service-worker.js": "/i-need-help-3rd/service-worker.js",
     "static/css/2.0624914a.chunk.css.map": "/i-need-help-3rd/static/css/2.0624914a.chunk.css.map",
-    "static/css/main.bed3fd2d.chunk.css.map": "/i-need-help-3rd/static/css/main.bed3fd2d.chunk.css.map",
+    "static/css/main.386e70d7.chunk.css.map": "/i-need-help-3rd/static/css/main.386e70d7.chunk.css.map",
     "static/media/index.css": "/i-need-help-3rd/static/media/cool-background.9fcbf058.png"
   }
 }
