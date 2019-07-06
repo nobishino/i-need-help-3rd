@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {Navbar} from 'reactstrap';
 import {Container,Row,Col} from 'reactstrap';
-import {Spinner} from 'reactstrap';
 import {Card} from 'reactstrap';
 import {Progress} from 'reactstrap'
 
@@ -30,10 +29,10 @@ class Header extends React.Component{
                   <a href="" className=" share-content twitter">
                     t
                   </a> 
-                  <a href="" className="share-content wordpress">
+                  <a href="https://naughty-hugle1732.on.getshifter.io/" className="share-content wordpress">
                     w
                   </a>
-                  <a href="" className="share-content github">
+                  <a href="https://github.com/TaroTakanashi" className="share-content github">
                    g
                   </a>
                 </div>
@@ -76,20 +75,24 @@ class Main extends React.Component{
                         <Col xs="12">
                           <div className="life-progress">
                             <div className="life-content">
-                              <div className="text-center">人生進み具合(実年齢/寿命)</div>
+                              <h4 className="text-center">人生</h4>
                               <Progress color="success" value={25} max={80}>25歳</Progress>
+                              <div className="goal"> 80歳</div>
                             </div>
                             <div className="life-content">
-                              <div className="text-center">人生やりたいことリスト</div>
-                              <Progress color="info" value={2} max={5}>2件終わって、残り5件</Progress>
+                              <h3 className="text-center">人生ToDo</h3>
+                              <Progress color="info" value={2} max={5}>2件</Progress>
+                              <div className="goal"> 7件</div>
                             </div> 
                             <div className="life-content">
-                              <div className="text-center">ダイエット進捗率</div>
-                              <Progress color="worning" value={20} max={30} />
+                              <h3 className="text-center">人生ダイエット</h3>
+                              <Progress color="worning" value={20} max={30}></Progress>
+                              <div className="goal"> 58kg</div>
                             </div>
                             <div className="life-content">
-                              <div className="text-center">老後の蓄え(2000万)</div>
+                              <h3 className="text-center">老後の蓄え</h3>
                               <Progress color="warning" value="20" max={2000} />
+                              <div className="goal">20M¥</div>
                             </div>
                           </div>
                         </Col>
@@ -110,8 +113,9 @@ class Main extends React.Component{
                     <Card>
                       <h2>Project</h2>
                       <Row>
-                        <Col xs="4"><img src="" alt="太郎の自撮り"/></Col>
-                        <Col xs="8">シャーッス</Col>
+                        <Col md="4"><img src="" alt="太郎の自撮り"/></Col>
+                        <Col md="4">シャーッス</Col>
+                        <Col md="4">シャーッス</Col>
                       </Row>
                     </Card>
                   </Col>

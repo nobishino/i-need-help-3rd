@@ -153,8 +153,8 @@ p{
     color: #fff;
 }
 .card{
-    margin: 15px;
-    padding: 4rem;
+    margin: 30px 15px;
+    padding: 3rem;
 }
 .card h2{
     padding: 0 0 40px 0 ;
@@ -169,5 +169,23 @@ p{
     }
 }
 .life-content{
-    margin: 10px 0;
+    margin: 40px 0;
+}
+
+.progress{
+    height:1.5rem;
+    font-size: 1rem;
+    width: 90%;
+    float: left;
+}
+@media(max-width:576px){
+    .progress{
+        height:1.5rem;
+        font-size: 1rem;
+        width: 85%;
+        float: left;
+    }
+}
+.goal{
+    text-align: center;
 }
