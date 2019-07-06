@@ -168,4 +168,6 @@ p{
         padding: 2rem;
     }
 }
-.container{}
+.life-content{
+    margin: 10px 0;
+}
