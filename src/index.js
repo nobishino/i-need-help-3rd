@@ -105,6 +105,15 @@ class Main extends React.Component{
                       </Row>
                     </Card>
                   </Col>
+                  <Col xs="12">
+                    <Card>
+                      <h2>Project</h2>
+                      <Row>
+                        <Col xs="4"><img src="" alt="太郎の自撮り"/></Col>
+                        <Col xs="8">シャーッス</Col>
+                      </Row>
+                    </Card>
+                  </Col>
                 </Row>
               </Container>
             </main>  
