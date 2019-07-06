@@ -65,7 +65,7 @@ class Main extends React.Component{
                       <h2>About me</h2>
                       <Row>
                         <Col xs="4"><img src="" alt="太郎の自撮り"/></Col>
-                        <Col xs="8">シャーッス</Col>
+                        <Col xs="8">シャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッス</Col>
                       </Row>
                     </Card>
                   </Col>
