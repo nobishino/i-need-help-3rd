@@ -74,19 +74,32 @@ h4 {
     .share-contents{
         width: 80%;
     }
+    .share-content{
+        padding: 10px;
+        border:solid gray;
+        color: gray;
+        width:70px;
+    }
 }
 
 @media(min-width:992px){
     .share-contents{
         width: 70%;
     }
+    .share-content{
+        padding: 10px;
+        border:solid gray;
+        color: gray;
+        width:70px;
+    }
 }
 
 .share-content{
-    padding: 10px;
+    padding: 5px;
     border:solid gray;
     color: gray;
     width:70px;
+    margin: 5px;
 }
 .share-content:hover{
     color:#ffffff;
@@ -118,7 +131,7 @@ h1,h2,h3,h4{
         padding: 40px 0 0px;
     }
     .share-content{
-        margin: 10px 0;
+        margin: 10px 5px;
         width:60px;
     }
     .title.col-6{

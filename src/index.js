@@ -64,8 +64,8 @@ class Main extends React.Component{
                     <Card>
                       <h2>About me</h2>
                       <Row>
-                        <Col xs="4"><img src="" alt="太郎の自撮り"/></Col>
-                        <Col xs="8">シャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッス</Col>
+                        <Col md="4"><img src="" alt="太郎の自撮り"/></Col>
+                        <Col md="8">シャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッス</Col>
                       </Row>
                     </Card>
                   </Col>
@@ -100,8 +100,9 @@ class Main extends React.Component{
                     <Card>
                       <h2>Project</h2>
                       <Row>
-                        <Col xs="4"><img src="" alt="太郎の自撮り"/></Col>
-                        <Col xs="8">シャーッス</Col>
+                        <Col md="4">シャーっス</Col>
+                        <Col md="4">シャーッス</Col>
+                        <Col md="4">シャーッス</Col>
                       </Row>
                     </Card>
                   </Col>
