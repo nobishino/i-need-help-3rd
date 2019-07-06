@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7533597b8608dd44ee9c5a290cd1099e",
+    "revision": "dc1aa3edae9cc640a0e586c9d91b4308",
     "url": "/i-need-help-3rd/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/i-need-help-3rd/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "bb3228248704e69eeed0",
+    "revision": "b03ac010fd560d1db526",
     "url": "/i-need-help-3rd/static/css/main.df3918b2.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/i-need-help-3rd/static/js/2.da4ea801.chunk.js"
   },
   {
-    "revision": "bb3228248704e69eeed0",
-    "url": "/i-need-help-3rd/static/js/main.df5a0f3f.chunk.js"
+    "revision": "b03ac010fd560d1db526",
+    "url": "/i-need-help-3rd/static/js/main.a898dd12.chunk.js"
   },
   {
     "revision": "926f7e455f76cd0cdc1e",
