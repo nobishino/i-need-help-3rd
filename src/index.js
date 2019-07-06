@@ -13,7 +13,7 @@ import './updatebs4.css';
 class Header extends React.Component{
     constructor(props){
         super(props);
-        this.state={title:"I need help 3."};
+        this.state={title:"I need help!"};
     }
     render(){
         return(
