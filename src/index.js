@@ -86,7 +86,7 @@ class Main extends React.Component{
                     <Card>
                       <h2>About me</h2>
                       <Row className="introductions">
-                        <Col md="4"><img src="https://pbs.twimg.com/profile_banners/2265077570/1537969176/1500x500" alt="太郎の自撮り" className="mypic"/></Col>
+                        <Col md="4" className="avator"><img src="https://pbs.twimg.com/profile_banners/2265077570/1537969176/1500x500" alt="太郎の自撮り" className="mypic"/></Col>
                         <Col md="8" className="introduction-wrapper">
                           <div　className="introduction-text">
                             <p>私は社内のシステムエンジニアです。ユーザー要件の取り纏めや拠点間の調整を中心に行なっています。</p>
