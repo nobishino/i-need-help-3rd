@@ -12,7 +12,7 @@ import './updatebs4.css';
 class Header extends React.Component{
     constructor(props){
         super(props);
-        this.state={title:"I need help!"};
+        this.state={title:"高梨太郎.com"};
     }
     render(){
         return(
@@ -20,7 +20,7 @@ class Header extends React.Component{
             <Navbar>
               <Col className="title" xs="6">
                 <div>  
-                  <h3>{this.state.title}</h3>
+                  <h2>{this.state.title}</h2>
                   <small>常に助けを求めている。</small>
                 </div>
               </Col>
