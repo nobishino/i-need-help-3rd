@@ -212,14 +212,22 @@ p{
         float: left;
     }
 }
-
+.introduction-wrapper{
+    line-height: 100%;
+    display: flex;
+}
 .introduction-text p{
     color: black;
-    height: 100%;
-    line-height: 100%;
     align-items: center;
-    margin: 0px;
     text-indent: 0.5em;
+    margin-bottom: 8px;
+    margin-top:8px
+}
+.introduction-text{
+    display: inline-block;
+
+    align-items: center;
+    margin: auto;
 }
 .goal{
     text-align: center;

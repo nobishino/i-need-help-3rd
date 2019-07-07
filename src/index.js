@@ -87,11 +87,10 @@ class Main extends React.Component{
                       <h2>About me</h2>
                       <Row className="introductions">
                         <Col md="4"><img src="https://pbs.twimg.com/profile_banners/2265077570/1537969176/1500x500" alt="太郎の自撮り" className="mypic"/></Col>
-                        <Col md="8">
+                        <Col md="8" className="introduction-wrapper">
                           <div　className="introduction-text">
-                            <p>私は現在社内のシステムエンジニアとして働いており、ユーザー要件の取り纏めや拠点間の調整を中心に行なっています。</p>
-                            <p>業務でプログラミングを通して開発作業を行うことは入社して3年間ありませんが、強い興味があり帰宅後や休日を使って手を動かすことを続けています。
-                          </p>
+                            <p>私は社内のシステムエンジニアです。ユーザー要件の取り纏めや拠点間の調整を中心に行なっています。</p>
+                            <p>入社以来開発業務は行なっていませんが、趣味で帰宅後や休日を使ってWeb技術を中心に勉強しています。</p>
                           </div>
                         </Col>
                       </Row>
