@@ -89,7 +89,7 @@ class Main extends React.Component{
                         <Col md="4" className="avator"><img src="https://pbs.twimg.com/profile_banners/2265077570/1537969176/1500x500" alt="太郎の自撮り" className="mypic"/></Col>
                         <Col md="8" className="introduction-wrapper">
                           <div　className="introduction-text">
-                            <p>社内向けのSEをしています。ユーザー要件の取り纏めが主な業務です。</p>
+                            <p>社内向けのSEをしています。要件の取り纏めが主な業務です。</p>
                             <p>入社以来開発業務は行なっていませんが、帰宅後や休日を使ってWeb技術を中心に勉強を続けています。</p>
                           </div>
                         </Col>
