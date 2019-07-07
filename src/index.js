@@ -86,7 +86,7 @@ class Main extends React.Component{
                     <Card>
                       <h2>About me</h2>
                       <Row>
-                        <Col md="4"><img src="" alt="太郎の自撮り"/></Col>
+                        <Col md="4"><img src="https://pbs.twimg.com/profile_banners/2265077570/1537969176/1500x500" alt="太郎の自撮り" className="mypic"/></Col>
                         <Col md="8">シャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッス</Col>
                       </Row>
                     </Card>
