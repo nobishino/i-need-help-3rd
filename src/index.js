@@ -90,7 +90,7 @@ class Main extends React.Component{
                         <Col md="8" className="introduction-wrapper">
                           <div　className="introduction-text">
                             <p>社内向けのSEをしています。要件の取り纏めが主な業務です。</p>
-                            <p>入社以来開発業務は行なっていませんが、帰宅後や休日を使ってWeb技術を中心に勉強を続けています。</p>
+                            <p>入社以来開発業務は行なっていませんが、休日を使ってWeb技術を中心に勉強を続けています。</p>
                           </div>
                         </Col>
                       </Row>
