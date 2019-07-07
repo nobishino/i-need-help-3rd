@@ -19,6 +19,7 @@
     max-width: 100%;
     height: auto;
 }
+
 .navbar{
     width: 100%;
     margin-right: auto;
@@ -179,7 +180,7 @@ p{
     padding: 3rem;
 }
 .card h2{
-    padding: 0 0 40px 0 ;
+    padding: 0 0 20px 0 ;
 }
 @media(max-width:767px){
     .card h2{
@@ -210,6 +211,15 @@ p{
         width: 80%;
         float: left;
     }
+}
+
+.introduction-text p{
+    color: black;
+    height: 100%;
+    line-height: 100%;
+    align-items: center;
+    margin: 0px;
+    text-indent: 0.5em;
 }
 .goal{
     text-align: center;

@@ -85,9 +85,25 @@ class Main extends React.Component{
                   <Col xs="12">
                     <Card>
                       <h2>About me</h2>
-                      <Row>
+                      <Row className="introductions">
                         <Col md="4"><img src="https://pbs.twimg.com/profile_banners/2265077570/1537969176/1500x500" alt="太郎の自撮り" className="mypic"/></Col>
-                        <Col md="8">シャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッスシャーッス</Col>
+                        <Col md="8">
+                          <div　className="introduction-text">
+                            <p>私は現在社内のシステムエンジニアとして働いており、ユーザー要件の取り纏めや拠点間の調整を中心に行なっています。</p>
+                            <p>業務でプログラミングを通して開発作業を行うことは入社して3年間ありませんが、強い興味があり帰宅後や休日を使って手を動かすことを続けています。
+                          </p>
+                          </div>
+                        </Col>
+                      </Row>
+                    </Card>
+                  </Col>
+                  <Col xs="12">
+                    <Card>
+                      <h2>Activity</h2>
+                      <Row>
+                        <Col md="4">twitterの投稿</Col>
+                        <Col md="4">FBの投稿</Col>
+                        <Col md="4">githubの投稿</Col>
                       </Row>
                     </Card>
                   </Col>
@@ -132,16 +148,7 @@ class Main extends React.Component{
                       </Row>
                     </Card>
                   </Col>
-                  <Col xs="12">
-                    <Card>
-                      <h2>Activity(最近の動向)</h2>
-                      <Row>
-                        <Col md="4">twitterの投稿</Col>
-                        <Col md="4">FBの投稿</Col>
-                        <Col md="4">githubの投稿</Col>
-                      </Row>
-                    </Card>
-                  </Col>
+                  
                 </Row>
               </Container>
             </main>  
