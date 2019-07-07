@@ -20,7 +20,7 @@ class Header extends React.Component{
             <Navbar>
               <Col className="title" xs="6">
                 <div>  
-                  <h2>{this.state.title}</h2>
+                  <h2 className="title-name">{this.state.title}</h2>
                   <small>常に助けを求めている。</small>
                 </div>
               </Col>
