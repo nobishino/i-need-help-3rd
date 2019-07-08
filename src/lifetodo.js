@@ -9,7 +9,14 @@ import './updatebs4.css';
 import {Progress} from 'reactstrap'
 
 export default class Life extends React.Component{
+    constructor(props){
+        super(props);
+        this.state={iwasborn:1993,age:0}
+    }
     
+    componentDidMount(){
+      this.setState({age:2019-this.state.iwasborn});
+    }
     render(){
       return(
         <Col xs="12">
@@ -20,7 +27,7 @@ export default class Life extends React.Component{
                   <div className="life-progress">
                   <div className="life-content">
                     <h4 className="text-center">人生</h4>
-                    <Progress color="success" value={25} max={80}>25歳</Progress>
+                    <Progress color="success" value={this.state.age} max={80}>{this.state.age}歳</Progress>
                     <div className="goal"> 80歳</div>
                   </div>
                   <div className="life-content">
