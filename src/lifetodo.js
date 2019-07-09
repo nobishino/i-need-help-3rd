@@ -1,7 +1,7 @@
 import React from 'react';
 
 import {Col} from 'reactstrap';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -17,9 +17,14 @@ export default class Life extends React.Component{
         <Col xs="12">
           <Router>
             <Route path="/" exact component={LifeTodo} />
-            <Route path="/ToDo" exact component={ToDo} />
+            <Route path="/ToDo" render={()=><ToDo todolist={TODOLIST}/>} />
           </Router>
         </Col>
       )
     };
 }
+const TODOLIST =[
+    {todo:'MBA',isActivated:true,limit:'2023/12/31',description:"20代のうちにアメリカに渡ってMBAの資格を取る。"},
+    {todo:'海外勤務',isActivated:true,limit:'2021/12/31',description:""},
+    {todo:'オープンソース貢献',isActivated:true,limit:'2020/12/31',description:""}
+];
