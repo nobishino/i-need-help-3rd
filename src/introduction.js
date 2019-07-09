@@ -17,7 +17,7 @@ export default class Introduction extends React.Component{
                   <Col md="8" className="introduction-wrapper">
                     <div　className="introduction-text">
                       <p>新卒で入社した会社で社内向けのSEをしていて、システム要件の取り纏めやプログラマーの方々との仕様調整が主な業務です。</p>
-                      <p>入社してから開発業務は行なっていませんが、休日を使ってWeb技術を中心に勉強を続けています。</p>
+                      <p>入社してから開発業務は行なっていませんが、休日を使ってWeb系を中心に勉強を続けています。</p>
                     </div>
                   </Col>
                 </Row>
