@@ -2,7 +2,7 @@ import React from 'react';
 import { Row, Col } from 'reactstrap';
 import { Progress } from 'reactstrap';
 import {Card} from 'reactstrap';
-import { BrowserRouter as Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 export default class LifeTodo extends React.Component {
     constructor(props){

@@ -16,7 +16,7 @@ export default class Life extends React.Component{
       return(
         <Col xs="12">
           <Router>
-            <Route path="/" exact component={LifeTodo} />
+            <Route path="/" component={LifeTodo} />
             <Route path="/ToDo" render={()=><ToDo todolist={TODOLIST}/>} />
           </Router>
         </Col>
