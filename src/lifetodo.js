@@ -16,11 +16,9 @@ export default class Life extends React.Component{
     render(){
       return(
         <Col xs="12">
-        <Router>
-          <Switch>
-            <Route path={`${process.env.PUBLIC_URL}/`} component={LifeTodo} />
-            <Route path={`${process.env.PUBLIC_URL}/ToDo`} render={()=><ToDo todolist={TODOLIST}/>} />
-          </Switch>
+        <Router basename={process.env.PUBLIC_URL}>
+            <Route exact path="/" component={LifeTodo} />
+            <Route exact path="/ToDo" render={()=><ToDo todolist={TODOLIST}/>} />
         </Router>
         </Col>
       )
