@@ -1,7 +1,7 @@
 import React from 'react';
 
 import {Col} from 'reactstrap';
-import { BrowserRouter, Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -15,12 +15,10 @@ export default class Life extends React.Component{
     render(){
       return(
         <Col xs="12">
-          <BrowserRouter basename={process.env.PUBLIC_URL}>
-            <Router>
-              <Route path="/" component={LifeTodo} />
-              <Route path="/ToDo" render={()=><ToDo todolist={TODOLIST}/>} />
-            </Router>
-          </BrowserRouter>
+          <Router>
+            <Route path={`${process.env.PUBLIC_URL}/`} component={LifeTodo} />
+            <Route path={`${process.env.PUBLIC_URL}/ToDo`} render={()=><ToDo todolist={TODOLIST}/>} />
+          </Router>
         </Col>
       )
     };
