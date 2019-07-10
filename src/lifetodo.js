@@ -1,7 +1,7 @@
 import React from 'react';
 
 import {Col} from 'reactstrap';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter, Router, Route } from "react-router-dom";
 
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -15,10 +15,12 @@ export default class Life extends React.Component{
     render(){
       return(
         <Col xs="12">
+        <HashRouter basename="/">
           <Router>
             <Route path="/" component={LifeTodo} />
             <Route path="/ToDo" render={()=><ToDo todolist={TODOLIST}/>} />
           </Router>
+          </HashRouter>
         </Col>
       )
     };
