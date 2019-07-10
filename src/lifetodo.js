@@ -15,11 +15,11 @@ export default class Life extends React.Component{
     render(){
       return(
         <Col xs="12">
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
-          <Router>
-            <Route path="/" component={LifeTodo} />
-            <Route path="/ToDo" render={()=><ToDo todolist={TODOLIST}/>} />
-          </Router>
+          <BrowserRouter basename={process.env.PUBLIC_URL}>
+            <Router>
+              <Route path="/" component={LifeTodo} />
+              <Route path="/ToDo" render={()=><ToDo todolist={TODOLIST}/>} />
+            </Router>
           </BrowserRouter>
         </Col>
       )
