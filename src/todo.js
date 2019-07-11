@@ -8,13 +8,19 @@ import {Card} from 'reactstrap';
 export default class ToDo extends React.Component{
     
     render(){
-      const todolist = this.props.todolist;
+      let list =[];
+      let todo = this.props.todolist;
+      for(let i in this.props.todolist){
+          list.push(<Card>{todo[i].todo}</Card>)
+      }
       return(
         <Card>
           <h2>Goal in My Life</h2>        
             <Row>
               <Col xs="12">
-                {todolist[0].todo}
+                <ul>
+                  {list}
+                </ul>
               </Col>
             </Row>
         </Card>
