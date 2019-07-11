@@ -11,20 +11,25 @@ export default class ToDo extends React.Component{
       let list =[];
       let todo = this.props.todolist;
       for(let i in this.props.todolist){
-          list.push(<Card>{todo[i].todo}</Card>)
+          list.push(
+          <Col md ="4">
+          <Card>
+            <h4>{todo[i].todo}</h4>
+            <div　className="introduction-text">
+              <p>{todo[i].description}</p>
+              <p>{todo[i].limit}</p>
+            </div>
+          </Card>
+          </Col>
+          )
       }
       return(
         <Card>
           <h2>Goal in My Life</h2>        
             <Row>
-              <Col xs="12">
-                <ul>
-                  {list}
-                </ul>
-              </Col>
+              {list}
             </Row>
         </Card>
     )};
 }
-
 

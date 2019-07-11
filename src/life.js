@@ -26,7 +26,7 @@ export default class LifeTodo extends React.Component {
                         <div className="goal"> 80歳</div>
                     </div>
                     <div className="life-content">
-                    <Link to='ToDo'><h3 className="text-center">人生ToDo</h3>
+                    <Link to='ToDo'><h3 className="text-center">人生Goal</h3>
                         <Progress color="info" value={2} max={5}>2件</Progress>
                         <div className="goal"> 7件</div></Link>
                     </div>

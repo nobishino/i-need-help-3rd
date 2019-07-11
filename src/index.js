@@ -9,7 +9,7 @@ import './updatebs4.css';
 
 import MainHeader from './mainheader';
 import Introduction from './introduction';
-import Life from './lifetodo';
+import Life from './router';
 import Activity from './activity';
 import Project from './project';
 
