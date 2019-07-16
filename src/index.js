@@ -17,7 +17,7 @@ import Project from './project';
 class Header extends React.Component{
     constructor(props){
         super(props);
-        this.state={title:"高梨太郎.com"};
+        this.state={title:"MyPortfolio"};
     }
     render(){
         return(
@@ -26,7 +26,7 @@ class Header extends React.Component{
               <Col className="title" xs="6">
                 <div>  
                   <h2 className="title-name">{this.state.title}</h2>
-                  <small>常に助けを求めている。</small>
+                  <small>I need help!</small>
                 </div>
               </Col>
               <Col className="share" xs="6">
@@ -56,9 +56,9 @@ class Main extends React.Component{
               <Container>
                 <Row>
                   <Introduction />
-                  <Activity />
-                  <Life />
                   <Project />
+                  <Life />
+                  <Activity />
                 </Row>
               </Container>
             </main>  

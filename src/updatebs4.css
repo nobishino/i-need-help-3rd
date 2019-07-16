@@ -168,7 +168,7 @@ ul{
         padding-left: 0;
     }
     small{
-        font-size: 70%;
+        font-size: 100%;
     }
     
 }
@@ -213,7 +213,11 @@ p{
     }
 }
 .avator{
-    padding: 0px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.fa-laptop-code{
+    font-size: 300%;
 }
 .introduction-wrapper{
     line-height: 100%;
@@ -223,8 +227,8 @@ p{
     color: black;
     align-items: center;
     text-indent: 0.5em;
-    margin-bottom: 8px;
-    margin-top:8px
+    margin-bottom: 2px;
+    margin-top:2px
 }
 .introduction-text{
     display: inline-block;
@@ -237,4 +241,19 @@ p{
 }
 footer p{
     text-align: center;
+}
+
+.goalcontent{
+    height: 100%;
+    padding: 0px;
+    color: black;
+}
+
+img {width: 100%;}
+
+.productcard{
+    
+    margin: 0;
+    padding: 0;
+    
 }
