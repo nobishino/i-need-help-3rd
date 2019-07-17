@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/i-need-help-3rd/static/css/main.1eda829e.chunk.css",
-    "main.js": "/i-need-help-3rd/static/js/main.db4b05f9.chunk.js",
-    "main.js.map": "/i-need-help-3rd/static/js/main.db4b05f9.chunk.js.map",
+    "main.css": "/i-need-help-3rd/static/css/main.391818e5.chunk.css",
+    "main.js": "/i-need-help-3rd/static/js/main.b3bcedd5.chunk.js",
+    "main.js.map": "/i-need-help-3rd/static/js/main.b3bcedd5.chunk.js.map",
     "runtime~main.js": "/i-need-help-3rd/static/js/runtime~main.c4ff259d.js",
     "runtime~main.js.map": "/i-need-help-3rd/static/js/runtime~main.c4ff259d.js.map",
     "static/css/2.0624914a.chunk.css": "/i-need-help-3rd/static/css/2.0624914a.chunk.css",
     "static/js/2.cd43fba7.chunk.js": "/i-need-help-3rd/static/js/2.cd43fba7.chunk.js",
     "static/js/2.cd43fba7.chunk.js.map": "/i-need-help-3rd/static/js/2.cd43fba7.chunk.js.map",
     "index.html": "/i-need-help-3rd/index.html",
-    "precache-manifest.46a1693b954cda250e2c0d03ebf602d7.js": "/i-need-help-3rd/precache-manifest.46a1693b954cda250e2c0d03ebf602d7.js",
+    "precache-manifest.4f4401ce31c7b30bd38aa9e50579f85b.js": "/i-need-help-3rd/precache-manifest.4f4401ce31c7b30bd38aa9e50579f85b.js",
     "service-worker.js": "/i-need-help-3rd/service-worker.js",
     "static/css/2.0624914a.chunk.css.map": "/i-need-help-3rd/static/css/2.0624914a.chunk.css.map",
-    "static/css/main.1eda829e.chunk.css.map": "/i-need-help-3rd/static/css/main.1eda829e.chunk.css.map",
-    "static/media/MyAWSNetwork.png": "/i-need-help-3rd/static/media/MyAWSNetwork.d3cc442f.png",
-    "static/media/MyPortfolio.png": "/i-need-help-3rd/static/media/MyPortfolio.0f0096a1.png",
+    "static/css/main.391818e5.chunk.css.map": "/i-need-help-3rd/static/css/main.391818e5.chunk.css.map",
+    "static/media/MyAWSNetwork.png": "/i-need-help-3rd/static/media/MyAWSNetwork.a6ca8f01.png",
+    "static/media/MyPortfolio.png": "/i-need-help-3rd/static/media/MyPortfolio.5e76b458.png",
     "static/media/index.css": "/i-need-help-3rd/static/media/cool-background.9fcbf058.png"
   }
 }
